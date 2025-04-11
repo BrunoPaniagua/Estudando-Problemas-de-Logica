@@ -7,15 +7,15 @@ public class reverseString {
 	public static void main(String[] args) {
 		
 		char[] palavra = {'H','E','L','L','O'};
-		System.out.println(Arrays.toString(reverseString(palavra)));
+		System.out.println(Arrays.toString(reverseStringMetodo(palavra)));
 		
 		//Se passarem um String
 		String testString = "bom dia";
 		char[] mudandoString = testString.toCharArray();
-		System.out.println(Arrays.toString(reverseString(mudandoString)));
+		System.out.println(Arrays.toString(reverseStringMetodo(mudandoString)));
 	}
 	
-	public static char[] reverseString(char[] letras) {
+	public static char[] reverseStringMetodo(char[] letras) {
 		
 		int l = 0;
 		int r = letras.length-1;

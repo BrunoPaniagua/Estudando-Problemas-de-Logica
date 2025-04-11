@@ -8,11 +8,11 @@ public class twoSum {
 	public static void main(String[] args) {
 
 		int[] nums = { 2, 7, 11, 15 };
-		System.out.println(Arrays.toString(twoSum(nums, 13)));
+		System.out.println(Arrays.toString(twoSumMetodo(nums, 13)));
 
 	}
 
-	public static int[] twoSum(int nums[], int target) {
+	public static int[] twoSumMetodo(int nums[], int target) {
 
 		Map<Integer, Integer> mapeamento = new HashMap<>();
 		for (int i = 0; i < nums.length; i++) {
